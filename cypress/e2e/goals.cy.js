@@ -26,10 +26,8 @@ describe("CreateProject Page", () => {
         createProject.verifyValidSelectionCampaignTypeDropdown();
         createProject.verifyValidSelectionCountryDropdown();
         createProject.verifyValidSelectionTimezoneDropdown();
-        createProject.verifyNextStepButtonEnabled();
-       // goalsProject.verifyGoalsStepupRedirection();
     });
-    it("Goals step redirection.", () => {
+    it("Verify, All Elements on goals form ", () => {
         clients.clickonclients();
         createProject.verifyEditButtonClickFunctionality();
         createProject.verifyValidInputProjectNameField();
@@ -38,7 +36,83 @@ describe("CreateProject Page", () => {
         createProject.verifyValidSelectionCountryDropdown();
         createProject.verifyValidSelectionTimezoneDropdown();
         createProject.verifyNextStepButtonEnabled();
-       goalsProject.VerifyAllElementsGoalsForm();
+        goalsProject.VerifyAllElementsGoalsForm();
     });
-
+    it("Verify Goal Types Display", () => {
+        clients.clickonclients();
+        createProject.verifyEditButtonClickFunctionality();
+        createProject.verifyValidInputProjectNameField();
+        createProject.verifyValidInputProjectDescriptionField();
+        createProject.verifyValidSelectionCampaignTypeDropdown();
+        createProject.verifyValidSelectionCountryDropdown();
+       // createProject.verifyValidSelectionTimezoneDropdown();
+        createProject.verifyNextStepButtonEnabled();
+        goalsProject.VerifyAllElementsGoalsForm();
+    });
+    it("Verify Goal Selection", () => {
+        clients.clickonclients();
+        createProject.verifyEditButtonClickFunctionality();
+        createProject.verifyValidInputProjectNameField();
+        createProject.verifyValidInputProjectDescriptionField();
+        createProject.verifyValidSelectionCampaignTypeDropdown();
+        createProject.verifyValidSelectionCountryDropdown();
+       // createProject.verifyValidSelectionTimezoneDropdown();
+        createProject.verifyNextStepButtonEnabled();
+        goalsProject.VerifyAllElementsGoalsForm();
+    });
+    it("Verify Next step button functionality Without Selecting a Goal", () => {
+        clients.clickonclients();
+        createProject.verifyEditButtonClickFunctionality();
+        createProject.verifyValidInputProjectNameField();
+        createProject.verifyValidInputProjectDescriptionField();
+        createProject.verifyValidSelectionCampaignTypeDropdown();
+        createProject.verifyValidSelectionCountryDropdown();
+       // createProject.verifyValidSelectionTimezoneDropdown();
+        createProject.verifyNextStepButtonEnabled();
+        goalsProject.VerifyAllElementsGoalsForm();
+    });
+    it("Verify Pagination for Goal Selection", () => {
+        clients.clickonclients();
+        createProject.verifyEditButtonClickFunctionality();
+        createProject.verifyValidInputProjectNameField();
+        createProject.verifyValidInputProjectDescriptionField();
+        createProject.verifyValidSelectionCampaignTypeDropdown();
+        createProject.verifyValidSelectionCountryDropdown();
+       // createProject.verifyValidSelectionTimezoneDropdown();
+        createProject.verifyNextStepButtonEnabled();
+        goalsProject.VerifyAllElementsGoalsForm();
+    });
+    it("Verify Previous Step Button Functionality", () => {
+        clients.clickonclients();
+        createProject.verifyEditButtonClickFunctionality();
+        createProject.verifyValidInputProjectNameField();
+        createProject.verifyValidInputProjectDescriptionField();
+        createProject.verifyValidSelectionCampaignTypeDropdown();
+        createProject.verifyValidSelectionCountryDropdown();
+       // createProject.verifyValidSelectionTimezoneDropdown();
+        createProject.verifyNextStepButtonEnabled();
+        goalsProject.VerifyAllElementsGoalsForm();
+    });
+    it("Verify 'Next Step' Button Functionality", () => {
+        clients.clickonclients();
+        createProject.verifyEditButtonClickFunctionality();
+        createProject.verifyValidInputProjectNameField();
+        createProject.verifyValidInputProjectDescriptionField();
+        createProject.verifyValidSelectionCampaignTypeDropdown();
+        createProject.verifyValidSelectionCountryDropdown();
+       // createProject.verifyValidSelectionTimezoneDropdown();
+        createProject.verifyNextStepButtonEnabled();
+        goalsProject.VerifyAllElementsGoalsForm();
+    });
+    it("Verify system behavior when refreshing the Goals page", () => {
+        clients.clickonclients();
+        createProject.verifyEditButtonClickFunctionality();
+        createProject.verifyValidInputProjectNameField();
+        createProject.verifyValidInputProjectDescriptionField();
+        createProject.verifyValidSelectionCampaignTypeDropdown();
+        createProject.verifyValidSelectionCountryDropdown();
+       // createProject.verifyValidSelectionTimezoneDropdown();
+        createProject.verifyNextStepButtonEnabled();
+        goalsProject.VerifyAllElementsGoalsForm();
+    });
 });

@@ -15,7 +15,7 @@ describe("CreateProject page", () => {
         signIn.verifyLoginFuntionality("qatesthub2@gmail.com", "sZWL5WDbCoaKMmNh");
     });
 
-    it.only("Verify Clicking '+' Add button Redirects user to the Create new Project", () => {
+    it("Verify Clicking '+' Add button Redirects user to the Create new Project", () => {
         clients.clickonclients();
         createproject.verifyEditButtonClickFunctionality();
     });

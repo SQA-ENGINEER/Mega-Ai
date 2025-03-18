@@ -12,7 +12,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
     },
-    baseUrl: 'https://app.megavoice.ai',
+    baseUrl: 'https://app.aegis.mobi',
     defaultCommandTimeout: 80000,
     pageLoadTimeout: 100000,
    

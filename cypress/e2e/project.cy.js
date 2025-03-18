@@ -128,7 +128,7 @@ it("Verify Pagination Functionality ", () => {
     project.verifyPaginationFunctionality();
   
 })
-// it.only("Verify Pagination Functionality ", () => {
+// it("Verify Pagination Functionality ", () => {
 //     clients.clickonclients();
 //     project.verifyProjectPageRedirection();
 //     project.verifyRowsPerPageDropdownUpdatesDisplay();

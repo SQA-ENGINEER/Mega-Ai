@@ -15,7 +15,7 @@ export class CreateProject {
     });
 
     // Click on the Client Row
-    cy.get("tbody tr:nth-child(3) td:nth-child(1)")
+    cy.get("tbody tr:nth-child(7) td:nth-child(1)")
       .should('be.visible')
       .click();
 
@@ -35,9 +35,9 @@ export class CreateProject {
 
       cy.get("span[class='ng-star-inserted']").should('be.visible').and('contain.text', '(MEGA-Bhargav)');
       cy.wait(1000);
-      cy.get("body > app-root:nth-child(3) > app-shared-layout:nth-child(2) > div:nth-child(1) > div:nth-child(1) > app-shared-sidebar:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)").should('be.visible').click();
+      cy.get('[class="px-2 relative group ng-star-inserted"] [class*="border-round-sm relative"]').should('be.visible').click();
 
-    });
+    }); 
     // Use cy command inside the class method
     cy.get('[class="p-element ng-star-inserted"]').should('be.visible') //page should be fully loaded
     cy.wait(2000)
